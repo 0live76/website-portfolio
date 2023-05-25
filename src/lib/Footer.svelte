@@ -1,8 +1,12 @@
+<img src="wave.svg" alt="" />
 <footer>
   <p>&copy; Olive Roxburgh, 2023</p>
 </footer>
 
 <style>
+  img {
+    margin-bottom: -2%;
+  }
   p {
     font-family: "Didact Gothic", sans-serif;
     background-color: black;

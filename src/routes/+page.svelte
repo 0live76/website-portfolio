@@ -1,6 +1,5 @@
 <script>
   import Nav from "$lib/Nav.svelte"
-  import Footer from "$lib/Footer.svelte"
 </script>
 
 <svelte:head>
@@ -14,8 +13,6 @@
   <h2>Immersive, simple, and elegant website design.</h2>
   <p>Blah blah blah</p>
 </main>
-
-<img src="wave.svg" alt="" />
 
 <Footer />
 
@@ -38,5 +35,18 @@
 
   img {
     margin-bottom: -2%;
+  }
+
+  footer {
+    font-family: "Didact Gothic", sans-serif;
+    background-color: black;
+    padding-top: 2%;
+    padding-right: 2%;
+    font-size: 160%;
+    padding-bottom: 2%;
+    color: white;
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: 0;
   }
 </style>
