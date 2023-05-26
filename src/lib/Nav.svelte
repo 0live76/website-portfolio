@@ -15,7 +15,8 @@
     padding-bottom: 2%;
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    padding-right: 60%;
+    width: 100%;
     background-color: white;
     position: fixed;
   }
